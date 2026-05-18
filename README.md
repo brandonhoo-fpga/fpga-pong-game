@@ -4,7 +4,7 @@ A two-player Pong game implemented entirely in hardware on an FPGA. Drives a 640
 **Note:** This project was a deep dive into VGA timing, frame-synchronous game logic, multi-FSM coordination, and pseudo-random hardware sequencing. It built on the foundation laid by my Morse Code project (FSM design and UART communication) and added real-time graphics output as a new dimension.
 
 ## Hardware Demonstration
-https://github.com/user-attachments/assets/026047a7-1514-465a-a10f-0b9fe864e8b2
+https://github.com/user-attachments/assets/aaef65b2-a423-4d72-ae3b-dff3547200c1
 
 This demonstration captures a continuous gameplay session that exercises every major feature of the design. The sequence highlights:
 1. **Paddle controls:** Both paddles move up and down to confirm the four debounced switches are wired correctly and feeding the Paddle_Move FSMs.
